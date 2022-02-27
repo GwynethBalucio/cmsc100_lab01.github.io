@@ -154,6 +154,26 @@ td {
     background: url("assets/lugaw.gif");
 }
 
+.hobbies {
+    width: 376px;
+    height: 376px;
+    background: url("assets/hobbies.png");
+}
+
+.hobbies:hover{
+    background: url("assets/hobbies.gif");
+}
+
+.dreams {
+    width: 376px;
+    height: 376px;
+    background: url("assets/dreams.png");
+}
+
+.dreams:hover{
+    background: url("assets/dreams.gif");
+}
+
 .what {
     margin: 20px;
     font-family: RobotoItalic;
@@ -182,6 +202,21 @@ td {
     text-align: justify;
     font-family: Roboto;
     color: #10353c;
+}
+
+.list {
+    margin: auto;
+    text-align: justify;
+    font-family: Roboto;
+    color: #10353c;
+    width: 75%;
+
+}
+
+.text-extra {
+    margin: auto;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 .assets{
