@@ -94,7 +94,7 @@ td {
 
 .card {
     position:relative;
-    height: 400px;
+    height: auto;
     width: 75%;   
     background-color: white; 
     display: grid;
