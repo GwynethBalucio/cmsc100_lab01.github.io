@@ -1,0 +1,193 @@
+body {
+    background-color: #45b7b7;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(assets/Roboto/Roboto-Regular.ttf);  
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(assets/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url(assets/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(assets/Roboto/Roboto-Bold.ttf);
+}
+
+.top-bar {
+    overflow: hidden;
+    background-color: #10353c;
+    display: block;
+    width: 100%;  
+    font-family: RobotoBold;
+}
+
+table {
+    width: 75%;
+    margin: auto;
+}
+
+
+td {
+    color: #92bb46;
+    text-align: center;
+    padding: 14px 16px;
+    margin: auto;
+    width: auto;
+    font-size: 15px;
+  }
+
+.upper-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+}
+
+.hello {
+    width: 450px;
+    height: 204px;
+    margin-top: 25px;
+    background: url("assets/name.gif");
+}
+
+.hello:hover {
+    background: url("assets/name_hello.gif");
+}
+
+.name {
+    position: relative;
+    font-family: RobotoBlack;
+    
+}
+
+.fullname{
+    font-size: 30px;
+    color: #10353c;
+    position:absolute;
+    bottom: 25px;;
+}
+
+.nickname{
+    font-size: 25px;
+    color: #106a5d;
+    position:absolute;
+    bottom:0;
+}
+
+.container {
+    display: grid;
+    grid-row-gap: 10px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
+
+.card {
+    position:relative;
+    height: 400px;
+    width: 75%;   
+    background-color: white; 
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    margin: auto; 
+}
+
+.text {
+    margin: 20px;
+}
+
+.image{
+    margin: 20px;
+    align-self: center;
+}
+
+.cmsc130 {
+    width: 375px;
+    height: 375px;
+    background: url("assets/cmsc130.png");
+    
+}
+
+.cmsc130:hover{
+    background: url("assets/cmsc130.gif");
+}
+
+.hist1 {
+    width: 375px;
+    height: 375px;
+    background: url("assets/hist1.png");
+}
+
+.hist1:hover{
+    background: url("assets/hist1.gif");
+}
+
+.proglang {
+    width: 375px;
+    height: 375px;
+    background: url("assets/proglang.png");
+}
+
+.proglang:hover{
+    background: url("assets/proglang.gif");
+}
+
+.lugaw {
+    width: 376px;
+    height: 376px;
+    background: url("assets/lugaw.png");
+}
+
+.lugaw:hover{
+    background: url("assets/lugaw.gif");
+}
+
+.what {
+    margin: 20px;
+    font-family: RobotoItalic;
+    font-size: 15px;
+    color: #106a5d;
+}
+
+.info {
+    text-align: center;
+    font-family: RobotoBlack;
+    font-size: 25px;
+    color: #10353c;
+
+}
+
+.sub {
+    text-align: center;
+    font-family: RobotoItalic;
+    font-size: 15px;
+    margin-top: -22px;
+    color: #287b85;
+}
+
+.why {
+    margin: 20px;
+    text-align: justify;
+    font-family: Roboto;
+    color: #10353c;
+}
+
+.assets{
+    font-family: Roboto;
+    text-align: center;
+    color: #10353c;
+    font-size: 15px;
+}
+
+
+  
