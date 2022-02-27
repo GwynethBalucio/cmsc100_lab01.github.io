@@ -95,11 +95,13 @@ td {
 .card {
     position:relative;
     height: auto;
-    width: 75%;   
+    width: auto;   
     background-color: white; 
     display: grid;
     grid-template-columns: repeat(2, auto); 
     margin: auto; 
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
 
 .text {
